@@ -1,0 +1,67 @@
+body {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  background: #455954;
+}
+
+.poppins-font {
+  font-family: 'Poppins', sans-serif;;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0082ca;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ac2bac;
+  color: white;
+}
+
+.fa-github {
+  background: #333333;
+  color: white;
+}
+
+
+/*Map*/
+.map {
+  max-width:100%;
+  overflow:hidden;
+  color:red;
+  width:500px;
+  height:500px;
+}
+
+.embedmap {
+  height:100%; 
+  width:100%;
+  max-width:100%;
+}
+
+.map-form {
+  border:0;
+}
+#embedmap img {
+  max-width:none!important;
+  background:none!important;
+  font-size: inherit;
+  font-weight:inherit;
+}
